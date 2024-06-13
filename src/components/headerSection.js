@@ -6,19 +6,21 @@ function headerSection(){
     <>
     <div className='bg-[#181E4E]'>
     <div className='max-w-screen-xl mx-auto justify-center items-center text-[#FFF]'>
+       <div className='flex'>
        <div>
         <p>DMA |</p>
-        <p>Digital Marketing Agency</p>
+        {/* <p>Digital Marketing Agency</p> */}
        </div>
-       <div className=''>
+       <div className='flex justify-between'>
         {/* Button-1: Call */}
         <div className='flex items-center'>
             <button className='mr-2'><img src={Phone} alt='error' className='w-3 h-3' /></button>
             <span>800-569-2754</span>
         </div>
         {/* Button-2: Request Quote */}
-       <div className=''>
-        <button className=''>REQUEST A FREE CODE</button>
+       <div className='border-solid rounded-sm border-[#FFC145]'>
+        <button className='text-[#FFC145]'>REQUEST A FREE CODE</button>
+       </div>
        </div>
        </div>
     </div>

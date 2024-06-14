@@ -5,7 +5,7 @@ import DMA from '../assets/images/DMA-logo.svg';
 function headerSection() {
   return (
     <>
-    <div className='max-w-screen-xl mx-auto justify-center items-center bg-[#181E4E]'>
+    <div className='max-w-screen-xl mx-auto justify-center items-center bg-dark-blue'>
       <div className="pt-4 pb-4 pl-4 pr-4 flex justify-between items-center text-[#FFF]">
         <div className="">
           <div><img src={DMA} alt='error' /></div>

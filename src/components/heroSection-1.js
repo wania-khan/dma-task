@@ -18,7 +18,7 @@ function HeroSection1() {
                 </div>
                 <br></br><br></br>
                 {/* Images+Points */}
-                <div className="flex justify-between pl-3 pr-2 pt-5 pb-4">
+                <div className="lg:flex justify-between pl-3 pr-2 pt-5 pb-4">
                     {/* Part-1 and Group-1 */}
                     <div className="flex gap-2 flex-col">
                         <div className="flex gap-2">

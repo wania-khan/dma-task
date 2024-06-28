@@ -1,4 +1,5 @@
 import React from "react";
+import VS from '../assets/images/vs.png';
 import Brain from '../assets/images/brain-bulb.svg';
 import Three from '../assets/images/three-stars.svg';
 import Faces from '../assets/images/faces.svg';
@@ -20,9 +21,9 @@ function HeroSection1() {
                 {/* Images+Points */}
                 <div className="lg:flex justify-between pl-3 pr-2 pt-5 pb-4">
                     {/* Part-1 and Group-1 */}
-                    <div className="flex gap-2 flex-col">
-                        <div className="flex gap-2">
-                            <div>
+                    <div className="lg:flex gap-2 lg:flex-col">
+                        <div className="md:flex gap-2 sm:justify-center">
+                            <div className="">
                                 <img src={Brain} alt="error" className="h-28" />
                             </div>
                             <div>
@@ -45,14 +46,16 @@ function HeroSection1() {
                             <div className="flex items-center border-l-8 h-16 border-[#DFE0E4] pl-4 border-b">
                                 <p className="w-full pl-2">Sales-driven mentality</p>
                             </div>
+                            <br></br>
                         </div>
                     </div>
                     {/* VS */}
-                    <div className="flex items-center justify-center w-[91px] h-[91px] mx-4 bg-[#DFE0E4] rounded-full">
-                        <span className="font-[Lato] text-3xl">VS.</span>
+                    <div className="2xl:flex xl:flex-row">
+                        <img src={VS} alt="error" className="w-[96px] h-[96px]"/>
                     </div>
+                    <br></br>
                     {/* Part-2 and Group-2 */}
-                    <div className="flex gap-2 flex-col">
+                    <div className="lg:flex gap-2 lg:flex-col ">
                         <div className="flex gap-7">
                             <div>
                                 <img src={Faces} alt="error" className="h-[110px]" />

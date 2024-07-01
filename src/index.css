@@ -19,8 +19,18 @@
 }
 
 @font-face {
+  font-family: 'MontsBold';
+  src: local('Monts'), url(./assets/fonts/Montserrat-ExtraBold.ttf) format('opentype');
+}
+
+@font-face {
   font-family: 'Lato';
   src: local('Lato'), url(./assets/fonts/Lato-Bold.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'LatoR';
+  src: local('Lato'), url(./assets/fonts/Lato-Regular.ttf) format('opentype');
 }
 
 @font-face {

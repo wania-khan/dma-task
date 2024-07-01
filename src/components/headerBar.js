@@ -3,7 +3,8 @@ import React from 'react';
 function headerBar(){
     return(
     <>
-    <div className='max-w-screen-xl mx-auto justify-center items-center xl:border-b-2 lg:block hidden'>
+    <div className='xl:border-b-2'>
+    <div className='max-w-screen-xl mx-auto justify-center items-center lg:block hidden'>
     <div className='font-[Monts] flex justify-between text-sm font-extrabold p-5 '>
         <div>SEO</div>
         <div>PPC</div>
@@ -13,6 +14,7 @@ function headerBar(){
         <div>MARKETING AUTOMATION</div>
         <div>INDUSTRIES</div>
         <div>ABOUT DMA</div>
+    </div>
     </div>
     </div>
     </>

@@ -27,11 +27,13 @@ function  HeroSection3(){
                 <div>
                     <input type="tel" placeholder="Phone Number" class="bg-[#F5F5F5] mt-1 p-4 block w-full border border-gray-300 shadow-sm placeholder-[#5A6474] text-sm focus:bg-white focus:border-[#0066BA] focus:ring-[#0066BA]" />
                 </div>
-                <div class="md:col-span-2 flex items-center justify-between bg-white px-9 py-6 border border-gray-300 shadow-sm">
-                    <input type="url" id="linkedin-profile" name="linkedin-profile" placeholder="LinkedIn Profile URL" class="bg-[#F5F5F5] mt-1 p-4 block w-[200px] border border-gray-300 shadow-sm placeholder-[#5A6474] text-sm focus:bg-white focus:border-[#0066BA] focus:ring-[#0066BA]" />
-                    <img src={OR} alt="error_or" className="w-12 h-12" />
-                    <button type="button" class="bg-dark-blue text-white py-4 px-9 w-[200px] text-sm focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-dark-blue">Upload Resume</button>
+                <div class="flex-col md:col-span-2 md:flex md:flex-row md:items-center md:justify-between bg-white px-9 py-6 border border-gray-300 shadow-sm">
+                  <input type="url" id="linkedin-profile" name="linkedin-profile" placeholder="LinkedIn Profile URL" class="w-full mb-3 md:mb-0 bg-[#F5F5F5] mt-1 p-4 md:block md:w-[240px] border border-gray-300 shadow-sm placeholder-[#5A6474] text-sm focus:bg-white focus:border-[#0066BA] focus:ring-[#0066BA]" />
+                  <div class="flex justify-center w-full mb-3 md:mb-0">
+                  <img src={OR} alt="error_or" className="w-12 h-12" />
                 </div>
+                 <button type="button" class="w-full md:mb-0 bg-dark-blue text-white py-4 px-9 md:w-[380px] text-sm focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-dark-blue">Upload Resume</button>
+            </div>
             </div><br></br><br></br>
             <div class="flex justify-center items-center">
                 <button type="submit" class="font-[Lato] w-[250px] bg-[#FFC145] text-black text-xl px-12 py-3 font-black focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-[#FFC145]">APPLY NOW</button>

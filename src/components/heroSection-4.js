@@ -14,9 +14,9 @@ function HeroSection4(){
             <h2 className="text-center font-[Lato] text-[32px] font-black text-[#1B1D28] leading-[60px] mt-2">We Are Available For You Everytime</h2>
             {/* Img+Description */}
             <br></br><br></br>
-            <div className="flex justify-around items-center">
+            <div className="grid grid-col-1 sm:flex justify-around items-center">
             {/* Person-1 */}
-                <div className="font-[Sans]">
+                <div className="font-[Sans] mb-5 sm:mb-0">
                 <div className="relative">
                 <img src={Profile1} alt="avatar" className="w-[74px] h[74px]" />
                 <img src={Flag1} alt="error_flag" className="w-[26px] h-auto rounded-full border-2 border-white absolute -mt-7 ml-14" />
@@ -29,7 +29,7 @@ function HeroSection4(){
                 <button className="uppercase px-5 py-3 border-[1.5px] border-[#0066BA] text-[#0066BA] text-xs font-bold">schedule a call</button>
                 </div>
             {/* Person-2 */}
-            <div className="font-[Sans]">
+            <div className="font-[Sans] mb-5 sm:mb-0">
                 <div className="relative">
                 <img src={Profile2} alt="avatar" className="w-[74px] h[74px]" />
                 <img src={Flag1} alt="error_flag" className="w-[26px] h-auto rounded-full border-2 border-white absolute -mt-7 ml-14" />

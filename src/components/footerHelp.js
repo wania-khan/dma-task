@@ -6,8 +6,8 @@ function FooterHelp() {
         <>
             <div className="bg-[#F8F8FF] max-w-full border-t-2 border-b-2">
                 <div className="max-w-screen-xl mx-auto flex justify-center items-center py-6">
-                    <div className="flex space-x-6 justify-center items-center">
-                        <div><img src={Call} alt="error_call" className="w-11" /></div>
+                    <div className="md:flex space-x-6 justify-center items-center">
+                        <div className="flex justify-center"><img src={Call} alt="error_call" className="w-11" /></div>
                         <div>
                             <p className="font-[MontsBold] font-extrabold text-[27px] text-dark-blue">Need Help? Say Hello</p>
                             <span className="font-[SansBold] font-medium text-xs leading-[18px] text-dark-blue">Ready to speak with a marketing expert? Give us a ring </span>

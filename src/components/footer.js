@@ -7,10 +7,10 @@ function Footer(){
         <>
         <div>
         <div className='max-w-screen-xl mx-auto justify-center items-center'>
-        <div className="items-center justify-center flex">
+        <div className="items-center justify-center flex my-4">
             <img src={DMA} alt="error_jpg" className="w-64" />
         </div>
-        <div className="max-w-7xl flex justify-around items-start">
+        <div className="grid grid-cols-2 pl-7 sm:max-w-7xl sm:flex justify-around items-start">
             {/* 1st Portion */}
             <div className="text-dark-blue">
             <h2 className="font-[Lato] font-black text-base leading-6 uppercase mb-2">what we do</h2>
